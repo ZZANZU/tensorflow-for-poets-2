@@ -963,7 +963,7 @@ def add_jpeg_decoding(input_width, input_height, input_depth, input_mean,
   mul_image = tf.multiply(offset_image, 1.0 / input_std)
   return jpeg_data, mul_image
 
-
+# ㅇㅣㅂㅜㅂㅜㄴㅇㅔㅅㅓ GPU ㅆㅡㅈㅏ
 def main(_):
   # Needed to make sure the logging output is visible.
   # See https://github.com/tensorflow/tensorflow/issues/3047
